@@ -6,7 +6,7 @@
  							</item>
 +							<item>
 +								<label>Chrome</label>
-+								<onclick>XBMC.System.Exec(/usr/bin/chrome.sh)</onclick>
++								<onclick>XBMC.System.Exec(/usr/bin/google-chrome-stable)</onclick>
 +								<thumb>DefaultAddonWebSkin.png</thumb>
 +								<property name="id">chrome</property>
 +							</item>
