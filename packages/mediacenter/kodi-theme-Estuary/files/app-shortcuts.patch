@@ -12,7 +12,7 @@
 +							</item>
 +							<item>
 +								<label>Spotify</label>
-+								<onclick>XBMC.System.Exec(/usr/bin/spotify.sh)</onclick>
++								<onclick>XBMC.System.Exec(/usr/bin/spotify)</onclick>
 +								<thumb>DefaultAddonMusic.png</thumb>
 +								<property name="id">spotify</property>
 +							</item>
