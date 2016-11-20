@@ -42,8 +42,6 @@ PKG_CONFIGURE_OPTS_TARGET="--disable-dependency-tracking \
 
 post_makeinstall_target() {
   # dont include ntfsprogs.
-  rm -rf $INSTALL/usr/sbin
-  rm -rf $INSTALL/usr/bin
   rm -rf $INSTALL/bin/lowntfs-3g
   rm -rf $INSTALL/sbin/mount.lowntfs-3g
 
